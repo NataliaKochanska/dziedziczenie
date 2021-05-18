@@ -1,9 +1,9 @@
 package dziedziczenie;
 
 public class Shape {
-    public double x;
-    public double y;
-    public String color;
+    protected double x;
+    protected double y;
+    protected String color;
 
     public Shape(double x, double y, String color) {
         this.x = x;
